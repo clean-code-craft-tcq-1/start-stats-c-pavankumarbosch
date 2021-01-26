@@ -1,6 +1,4 @@
 #include <stdio.h>
-struct Stats;
-
 struct stats{
   float average;
   float min;
