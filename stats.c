@@ -9,7 +9,7 @@
 struct Stats compute_statistics(const float* numberset, int setlength) 
 {
     struct Stats s;
-  if(setlength==NAN || numberset ==NAN)
+  if(setlength == NAN || *numberset == NAN)
   {
     s.average = 0;
     s.min = 0;
