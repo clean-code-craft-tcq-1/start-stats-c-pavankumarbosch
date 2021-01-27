@@ -1,5 +1,5 @@
 
-struct stats{
+typedef struct stats{
   float average;
   float min;
   float max;
