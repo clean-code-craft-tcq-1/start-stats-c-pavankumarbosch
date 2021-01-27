@@ -4,7 +4,7 @@ struct stats{
   int average;
   int min;
   int max;
-};
+}s,computedStats ;
 struct Stats compute_statistics(const float* numberset, int setlength) {
     struct Stats s;
     s.average = 0;
