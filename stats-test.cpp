@@ -3,8 +3,7 @@
 #include "catch.hpp"
 #include "stats.h"
 extern "C"{
-    struct stats;
-    struct Stats compute_statistics(const float* numberset, int setlength); 
+#include "stats.c"
 }
 #include <stdlib.h>
 #include <math.h>
