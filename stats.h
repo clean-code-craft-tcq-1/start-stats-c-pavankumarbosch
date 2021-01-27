@@ -4,7 +4,6 @@ struct stats{
   float min;
   float max;
 };
-struct Stats computedStats;
 struct Stats compute_statistics(const float* numberset, int setlength);
 
 typedef void (*alerter_funcptr)();
