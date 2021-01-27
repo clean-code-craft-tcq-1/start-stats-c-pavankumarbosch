@@ -1,8 +1,8 @@
-struct stats{
+/*struct stats{
   int average;
   int min;
   int max;
-};
+};*/
 struct Stats compute_statistics(const float* numberset, int setlength);
 
 typedef void (*alerter_funcptr)();
