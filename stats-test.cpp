@@ -2,9 +2,9 @@
 
 #include "catch.hpp"
 #include "stats.h"
-extern "C"{
-#include "stats.c"
-}
+
+
+#include "declaration.h"
 #include <stdlib.h>
 #include <math.h>
 
