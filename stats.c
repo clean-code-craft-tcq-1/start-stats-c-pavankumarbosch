@@ -9,6 +9,5 @@ struct Stats compute_statistics(const float* numberset, int setlength)
     //changes
     return s;
 }
-extern struct Stats compute_statistics(const float* numberset, int setlength);
 int emailAlertCallCount = 0;
 int ledAlertCallCount = 0;
